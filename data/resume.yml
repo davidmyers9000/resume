@@ -1,112 +1,132 @@
 headers:
-    profile: Profile
-    skills: Skills
-    languages: Languages
-    techs: Technical
-    jobs: Experiences
-    education: Education
-    links: Links
-    download: Download PDF
-    age: y/o
-    projects: Projects
+  profile: Profile
+  skills: Skills
+  languages: Languages
+  techs: Technical
+  jobs: Experiences
+  education: Education
+  links: Links
+  download: Download PDF
+  age: y/o
+  projects: Projects
 
 info:
-    name: Full Name
-    # dob: 1980-01-01 # not mandatory
-    shortdesc: Job Title
-    email: example@example.com
-    phone: (313) - 867-5309 # not mandatory
-    homepage: http://example.com/ # not mandatory
-    address:
-        street: 123 Fake Street
-        city: City
-        region: Region # not mandatory
-        postal_code: 12345 # not mandatory
-        country: Country # not mandatory
-    desc: |
-        Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change.
+  name: David Myers
+  # dob: 1980-01-01 # not mandatory
+  shortdesc: Digital Media Design/Development
+  email: drm68@drexel.edu
+  phone: (267) - 968-7192 # not mandatory
+  homepage: # not mandatory
+  address:
+    street: 3246 Pebblewood Lane
+    city: Dresher
+    region: PA # not mandatory
+    postal_code: 19025 # not mandatory
+    country: USA # not mandatory
+  desc: |
+    Passionate about producing top-quality digital media with stunning graphics and intelligent design
 
 skills:
-    - name: Web design
-      desc: Assertively exploit wireless initiatives rather than synergistic core competencies.
-    - name: Interface Design
-      desc: Credibly streamline mission-critical value with multifunctional functionalities.
-    - name: Project Direction
-      desc: Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.
+  - name: Web design
+    desc: Assertively exploit wireless initiatives rather than synergistic core competencies.
+  - name: Interface Design
+    desc: Credibly streamline mission-critical value with multifunctional functionalities.
+  - name: Project Direction
+    desc: Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.
 
-languages:
-    - name: Gibberish
-      level: Native language
-    - name: Manager Speak
-      level: Fluent
+# languages:
+#     - name: Gibberish
+#       level: Native language
+#     - name: Manager Speak
+#       level: Fluent
 
 alphabetsoup:
-    - XHTML
-    - CSS
-    - Javascript
+  - XHTML
+  - CSS
+  - Javascript
 
-    - Jquery
-    - PHP
-    - CVS / Subversion
+  - Jquery
+  - PHP
+  - CVS / Subversion
 
-    - OS X
-    - Windows XP/Vista
-    - Linux
+  - OS X
+  - Windows XP/Vista
+  - Linux
 
 links:
-    - name: Link1
-      url: http://example.com/
-    - name: Another link
-      url: https://example.com/
+  - name: Link1
+    url: http://example.com/
+  - name: Another link
+    url: https://example.com/
 
 jobs:
-    - title: Senior Interface Designer
-      company: Famous Company
-      url: http://example.com/
-      dates:
-          start: 2007-01-02
-          end: Present
-      desc: |
-          Intrinsicly enable optimal core competencies through corporate relationships.
+  - title: Web & Multimedia Designer & Developer
+    company: Drexel University School of Biomedical Engineering
+    dates:
+      start: October 2013
+      end: Present
+    desc: |
+      Design and Implement information systems in Sharepoint and Web Content Management Systems
 
-          Phosfluorescently implement worldwide vortals and client-focused imperatives.
+      Responsible for producing digital and print media for the School of Biomedical Engineering
 
-          Conveniently initiate virtual paradigms and top-line convergence.
+      Manage many websites including department website, sub-level sites, and faculty web pages
 
-    - title: Junior Interface Designer
-      company: Technocorp
-      dates:
-          start: 2005-01-01
-          end: 2007-01-01
-      desc: |
-          Progressively reconceptualize multifunctional "outside the box" thinking through inexpensive methods of empowerment.
 
-          Compellingly morph extensive niche markets with mission-critical ideas.
 
-          Phosfluorescently deliver bricks-and-clicks strategic theme areas rather than scalable benefits.
+  - title: Front-end Designer
+    company: Fitly
+    dates:
+      start: March 2013
+      end: August 2013
+    desc: |
+      Participated in the 4-month Dreamit Health inaugural accelerator class
+
+      Change the way people think about eating healthy by making it fun, convenient, and exciting for customers
+
+      Designed fun/friendly user experience for the website and the mobile app.
+
+  - title: Freelance Web Designer
+    company: Philadelphia Computational Orchestra
+    dates:
+      start: November 2012
+      end: March 2013
+    desc: |
+      Designed and developed (concept to completion) bioinformatics e-commerce website/web app
+      Bridged the gap between the disciplines of bio-engineering and digital media
+
+  - title: UI Designer/Developer
+    company: Digitas Health
+    dates:
+      start: March 2011
+      end: September 2011
+    desc: |
+      Developed and animated interactive ads for Top 10 pharmaceutical companies
+
+      Designed both digital media and print materials e.g. websites, posters, emails, calendars, packaging, and storyboards
 
 education: # this section is not mandatory
-    - name: Indiana University
-      url: http://indiana.edu # not mandatory
-      city: Bloomington
-      region: Indiana
-      country: USA # not mandatory
-      dates:
-        start: 2001-01-01
-        end: 2010-01-01 # not mandatory
-      title: Dual Major, Economics and English
-      grade: 4.0 GPA # not mandatory
+  - name: Drexel University
+    url: http://drexel.edu # not mandatory
+    city: Philadelphia
+    region: PA
+    country: USA # not mandatory
+    dates:
+      start: 2008-9-22
+      end: 2012-06-13 # not mandatory
+    title: B.S. in Digital Media, Cum Laude
+    grade: 3.5 GPA # not mandatory
 
-projects: # this section is not mandatory
-    - name: ResumeMan
-      desc: |
-          Resume Man is an HTML and PDF resume builder made in Ruby with Middleman.
-      url: https://github.com/reefab/ResumeMan # not mandatory
-      dates: # not mandatory
-        start: 2013-02-18
-        end: 2014-04-05 # not mandatory
-      location: # not mandatory
-        city: Florence
-        region: Tuscany
-        country: Italy # not mandatory
+# projects: # this section is not mandatory
+#     - name: ResumeMan
+#       desc: |
+#           Resume Man is an HTML and PDF resume builder made in Ruby with Middleman.
+#       url: https://github.com/reefab/ResumeMan # not mandatory
+#       dates: # not mandatory
+#         start: 2013-02-18
+#         end: 2014-04-05 # not mandatory
+#       location: # not mandatory
+#         city: Florence
+#         region: Tuscany
+#         country: Italy # not mandatory
 
