@@ -23,7 +23,7 @@
 /* //-- yui-grids style overrides -- */
 html { background: #f5f5f5; }
 body { font-family: 'sourcepro'; color: #444; }
-#inner { padding: 10px 80px; margin: 80px auto; background: #ffffff; border: solid #07294d; border-width: 8px 0 2px 0; }
+#inner { padding: 10px 80px; margin: 80px auto; background: #ffffff; border: solid #487572; border-width: 8px 0 2px 0; }
 .yui-gf { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
 
 /* //-- header, body, footer -- */
@@ -41,7 +41,7 @@ h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
 p { font-size: 100%; line-height: 18px; padding-right: 3em; }
-a { color: #990003 }
+a { color: #CC9900 }
 a:hover { text-decoration: none; }
 strong { font-weight: bold; }
 li { line-height: 24px; border-bottom: 1px solid #ccc; }

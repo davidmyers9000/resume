@@ -6,13 +6,13 @@ module PdfMaker
                     require 'pdfkit'
 
                     kit = PDFKit.new(File.new('build/index.html'),
-                                :margin_top => 10,
+                                :margin_top => 0,
                                 :margin_bottom => 0,
                                 :margin_left => 0,
                                 :margin_right => 0,
                                 # :disable_smart_shrinking => true,
                                 :print_media_type => true,
-                                :dpi => 96)
+                                :dpi => 150)
 
                     file = kit.to_file('build/resume.pdf')
 

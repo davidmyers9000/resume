@@ -13,7 +13,7 @@ headers:
 info:
   name: David Myers
   # dob: 1980-01-01 # not mandatory
-  shortdesc: Digital Media Design/Development
+  shortdesc: Digital Media Designer/Developer
   email: drm68@drexel.edu
   phone: (267) - 968-7192 # not mandatory
   homepage: # not mandatory
@@ -24,15 +24,15 @@ info:
     postal_code: 19025 # not mandatory
     country: USA # not mandatory
   desc: |
-    Passionate about producing top-quality digital media with stunning graphics and intelligent design
+    Passionate about designing and implementing solutions to current problems by leveraging new media technologies that innovate and improve human interactions and experiences
 
 skills:
-  - name: Web design
-    desc: Assertively exploit wireless initiatives rather than synergistic core competencies.
-  - name: Interface Design
-    desc: Credibly streamline mission-critical value with multifunctional functionalities.
-  - name: Project Direction
-    desc: Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.
+  - name: Web Master
+    desc: Manage multiple websites, both front-end and back-end systems. Monitor and interpret analytics as well as troubleshoot issues
+  - name: Project Manager
+    desc: Initiation, planning, design, execution, monitoring, controlling and closing projects
+  - name: Multimedia Artist
+    desc: Proven ability creating visual media in a variety of programs and styles including print, digital animation and games
 
 # languages:
 #     - name: Gibberish
@@ -41,23 +41,32 @@ skills:
 #       level: Fluent
 
 alphabetsoup:
-  - XHTML
+  - HTML
   - CSS
   - Javascript
 
-  - Jquery
-  - PHP
-  - CVS / Subversion
+  - Ruby
+  - Git
+  - SharePoint
+
+  - Photoshop
+  - Premier
+  - Illustrator
+
+  - InDesign
+  - Maya
+  - Unity3D
 
   - OS X
-  - Windows XP/Vista
+  - Windows
   - Linux
 
 links:
-  - name: Link1
-    url: http://example.com/
-  - name: Another link
-    url: https://example.com/
+  - name: Github
+    url: https://github.com/davidmyers9000
+  - name: Vimeo
+    url: https://vimeo.com/davidmyers
+
 
 jobs:
   - title: Web & Multimedia Designer & Developer
@@ -75,7 +84,7 @@ jobs:
 
 
   - title: Front-end Designer
-    company: Fitly
+    company: Fitly – DreamIt Health
     dates:
       start: March 2013
       end: August 2013
