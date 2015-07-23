@@ -64,12 +64,10 @@ alphabetsoup:
 links:
   - name: Github
     url: https://github.com/davidmyers9000
-  - name: Digital Age Healthcare Conversations
-    url: https://vimeo.com/46840182
   - name: Vimeo Reel
     url: https://vimeo.com/couchmode/davidmyers
-  - name: Portfolio site
-    url: https://david-myers.com/portfolio
+  # - name: Portfolio
+  #   url: https://david-myers.com/portfolio
 
 
 jobs:

@@ -21,9 +21,9 @@
 .msg a:hover { background: #266400; }
 
 /* //-- yui-grids style overrides -- */
-html { background: #222222; }
-body { font-family: 'sourcepro'; color: #444; }
-#inner { padding: 10px 80px; margin: 80px auto; background: #ffffff; border: solid #3d93df; border-width: 8px 0 2px 0; }
+html { background: rgb(26, 26, 26) }
+body { font-family: 'sourcepro'; color: #fff; }
+#inner { padding: 10px 80px; margin: 80px auto; background: #222222; border: solid rgb(61, 61, 61); border-width: 8px 0 2px 0; }
 .yui-gf { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
 
 /* //-- header, body, footer -- */
@@ -35,13 +35,23 @@ body { font-family: 'sourcepro'; color: #444; }
 /* //-- footer -- */
 #ft { padding: 1em 0 5em 0; font-size: 92%; border-top: 1px solid #ccc; text-align: center; }
 #ft p { margin-bottom: 0; text-align: center;   }
+/* -- COLORS  -- */
+/* ORANGE: rgb(230, 126, 34) */
+/* BLUE:   rgb(52, 152, 219) */
+/* RED:    rgb(231, 76, 60)  */
+/* YELLOW: rgb(241, 196, 15) */
+/* GREEN:  rgb(46, 204, 113) */
 
 /* //-- core typography and style -- */
+
 h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
-h1, h2, h3, h4 { color: #333; }
+h1 { color: rgb(52, 152, 219); }
+h2 { color: rgb(212, 212, 212); }
+h3 { color: rgb(46, 204, 113); }
+h4 { color: rgb(241, 196, 15); }
 p { font-size: 100%; line-height: 18px; padding-right: 3em; }
-a { color: #e54c3b }
+a { color: rgb(52, 152, 219); }
 a:hover { text-decoration: none; }
 strong { font-weight: bold; }
 li { line-height: 24px; border-bottom: 1px solid #ccc; }
@@ -55,7 +65,7 @@ p.enlarge span { color: #000 }
 /* //-- section styles -- */
 
 a#pdf { display: block; float: left; background: #666; color: white; padding: 6px 50px 6px 12px; margin-bottom: 6px; text-decoration: none;  }
-a#pdf:hover { background: #222; }
+a#pdf:hover { background: rgb(231, 76, 60); }
 
 .job { position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
 .job h4 { position: absolute; top: 0.35em; right: 0 }
