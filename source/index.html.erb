@@ -60,7 +60,7 @@
                     <div id="yui-main">
                         <div class="yui-b">
 
-                            <div class="yui-gf">
+                            <div class="yui-gf" id="profile">
                                 <div class="yui-u first">
                                     <h2><%= data.resume.headers.profile %></h2>
                                 </div>
@@ -69,7 +69,7 @@
                                 </div>
                             </div><!--// .yui-gf -->
 
-                            <div class="yui-gf">
+                            <div class="yui-gf" id="skills">
                                 <div class="yui-u first">
                                     <h2><%= data.resume.headers.skills %></h2>
                                 </div>
@@ -83,7 +83,7 @@
                                 </div>
                             </div><!--// .yui-gf -->
 
-                            <div class="yui-gf no-page-breaker">
+                            <div class="yui-gf no-page-breaker" id="technical">
                                 <div class="yui-u first">
                                     <h2><%= data.resume.headers.techs %></h2>
                                 </div>
@@ -102,7 +102,7 @@
                                 </div>
                             </div><!--// .yui-gf-->
 
-                            <div class="yui-gf no-page-breaker">
+                            <div class="yui-gf no-page-breaker" id="experiences">
                                 <div class="yui-u first">
                                     <h2><%= data.resume.headers.jobs %></h2>
                                 </div><!--// .yui-u -->
@@ -127,7 +127,7 @@
                             </div><!--// .yui-gf -->
 
                             <% if data.resume.projects? %>
-                            <div class="yui-gf no-page-breaker">
+                            <div class="yui-gf no-page-breaker" id="projects">
                                 <div class="yui-u first">
                                     <h2><%= data.resume.headers.projects %></h2>
                                 </div>
@@ -165,7 +165,7 @@
                             <% end %>
 
                             <% if data.resume.education? %>
-                            <div class="yui-gf no-page-breaker">
+                            <div class="yui-gf no-page-breaker" id="education">
                                 <div class="yui-u first">
                                     <h2><%= data.resume.headers.education %></h2>
                                 </div>
@@ -200,7 +200,7 @@
                             <% end %>
 
                             <% if data.resume.languages? %>
-                            <div class="yui-gf no-page-breaker">
+                            <div class="yui-gf no-page-breaker" id="languages">
                                 <div class="yui-u first">
                                     <h2><%= data.resume.headers.languages %></h2>
                                 </div><!--// .yui-u -->
@@ -216,7 +216,7 @@
                             </div><!--// .yui-gf -->
                             <% end %>
 
-                            <div class="yui-gf last no-page-breaker">
+                            <div class="yui-gf last no-page-breaker" id="links">
 
                                 <div class="yui-u first">
                                     <h2><%= data.resume.headers.links %></h2>

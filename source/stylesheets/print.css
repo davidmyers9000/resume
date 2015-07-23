@@ -1,10 +1,28 @@
 #inner {
     background: #fff;
-    margin-top: 0px;
+    margin-top: 0px; /* fit on 1 page */
+    border-width: 0px; /* fit on 1 page */
+    padding: 0px 20px; /* fit on 1 page */
+}
+
+body {
+	color: #333333;
+}
+
+h1, h2, h3, h4 {
+	color: #333333;
 }
 
 a#pdf {
     display: none;
+}
+
+#hd {
+	margin-bottom: 2em;
+}
+
+.yui-gf {
+	margin-bottom: 1em;
 }
 
 #hd h1 {
@@ -13,6 +31,24 @@ a#pdf {
 
 #hd h2 {
     letter-spacing: 0.03em;
+}
+
+/* fit on 1 page */
+	#skills {
+		display: none;
+	}
+	#links {
+		display: none;
+	}
+	#ft {
+		display: none;
+	}
+	#inner #hd {
+		margin-top: 0px;
+	}
+
+#education.yui-gf {
+	border-width: 0px;
 }
 
 a:not(.donotexpand):link:after, a:not(.donotexpand):visited:after {
