@@ -24,7 +24,7 @@ info:
     postal_code: 19025 # not mandatory
     country: USA # not mandatory
   desc: |
-    Passionate about designing and implementing solutions to current problems by leveraging new media technologies that innovate and improve human interactions and experiences
+    Passionate about leveraging new media technologies to build innovative solutions that improve human interactions and experiences
 
 skills:
   - name: Web Master
@@ -72,7 +72,7 @@ links:
 
 jobs:
   - title: Web & Multimedia Designer & Developer
-    company: Drexel University School of Biomedical Engineering
+    company: Drexel School of Biomedical Engineering
     dates:
       start: October 2013
       end: Present
@@ -97,15 +97,6 @@ jobs:
 
       Designed fun/friendly user experience for the website and the mobile app.
 
-  - title: Freelance Web Designer
-    company: Philadelphia Computational Orchestra
-    dates:
-      start: November 2012
-      end: March 2013
-    desc: |
-      Designed and developed (concept to completion) bioinformatics e-commerce website/web app
-      Bridged the gap between the disciplines of bio-engineering and digital media
-
   - title: UI Designer/Developer
     company: Digitas Health
     dates:
@@ -115,6 +106,16 @@ jobs:
       Developed and animated interactive ads for Top 10 pharmaceutical companies
 
       Designed both digital media and print materials e.g. websites, posters, emails, calendars, packaging, and storyboards
+
+  - title: Student Tracking Advanced Research (STAR) Scholar
+    company: Drexel University
+    dates:
+      start: June 2009
+      end: September 2009
+    desc: |
+      Utilized a non-contact 3D scanner to digitally archive fossils, colonial-era artifacts, and ancient pottery fragments
+      
+      Collaborated with historians from Temple, NSF, and the Independence Living History Center of Philadelphia
 
 education: # this section is not mandatory
   - name: Drexel University
@@ -126,7 +127,7 @@ education: # this section is not mandatory
       start: 2008-9-22
       end: 2012-06-13 # not mandatory
     title: B.S. in Digital Media, Cum Laude
-    grade: 3.5 GPA # not mandatory
+    grade: 3.6 GPA # not mandatory
 
 # projects: # this section is not mandatory
 #     - name: ResumeMan
