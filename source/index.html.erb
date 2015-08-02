@@ -9,6 +9,8 @@
 
     <title><%= data.resume.info.name || "Resume" %></title>
 
+    <link href='http://fonts.googleapis.com/css?family=Work+Sans:400,600,800' rel='stylesheet' type='text/css'>
+
     <%= stylesheet_link_tag "reset-fonts-grids", "resume" , :media => "all"%>
     <%= stylesheet_link_tag "print" , :media => "print"%>
   </head>
@@ -110,12 +112,14 @@
                                 <div class="yui-u vcalendar">
                                     <% data.resume.jobs.each do |job| %>
                                     <div class="job no-page-breaker experience vevent">
-                                        <% if job.url? %>
-                                          <h2 class="location"><a href="<%= job.url%>" target=_blank><%= job.company %></a></h2>
-                                        <% else %>
-                                          <h2 class="location"><%= job.company %></h2>
-                                        <% end %>
-                                        <h3 class="summary"><%= job.title %></h3>
+                                        <div class="logo <%=job.css_class%>">
+                                            <% if job.url? %>
+                                                <h2 class="location"><a href="<%= job.url%>" target=_blank><%= job.company %></a></h2>
+                                            <% else %>
+                                              <h2 class="location"><%= job.company %></h2>
+                                            <% end %>
+                                            <h3 class="summary"><%= job.title %></h3>
+                                        </div>
                                         <h4>
                                             <abbr class="dtstart" title="<%= job.dates.start %>"><%= display_date(job.dates.start) %></abbr> -
                                             <abbr class="dtend" title="<%= job.dates.end %>"><%= display_date(job.dates.end) %></abbr>
