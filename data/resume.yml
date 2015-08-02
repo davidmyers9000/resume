@@ -72,7 +72,8 @@ links:
 
 jobs:
   - title: Web & Multimedia Designer & Developer
-    company: Drexel School of Biomedical Engineering
+    company: Drexel School of BIOMED
+    css_class: drexel
     dates:
       start: October 2013
       end: Present
@@ -87,6 +88,7 @@ jobs:
 
   - title: Front-end Designer
     company: Fitly – DreamIt Health
+    css_class: fitly
     dates:
       start: March 2013
       end: August 2013
@@ -99,6 +101,7 @@ jobs:
 
   - title: UI Designer/Developer
     company: Digitas Health
+    css_class: digitas
     dates:
       start: March 2011
       end: September 2011
@@ -109,6 +112,7 @@ jobs:
 
   - title: Student Tracking Advanced Research (STAR) Scholar
     company: Drexel University
+    css_class: drexel
     dates:
       start: June 2009
       end: September 2009
