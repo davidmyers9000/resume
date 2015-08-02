@@ -58,20 +58,20 @@ body { font-family: 'sourcepro'; color: #4D4D4D; }
 
 .logo { padding-left: 60px; }
 .drexel { 
-  background-image: url(" http_path >images/drexel-logo.png"); 
+  background-image: url("../images/drexel-logo.png"); 
   background-repeat: no-repeat;
   padding-left: 68px;
 
 }
 
 .fitly { 
-  background-image: url("<%= http_path >images/fitly-logo.png"); 
+  background-image: url("../images/fitly-logo.png"); 
   background-repeat: no-repeat;
   padding-left: 100px; 
 }
 
 .digitas { 
-  background-image: url("<%= http_path >images/digitashealth-logo.png"); 
+  background-image: url("../images/digitashealth-logo.png"); 
   background-repeat: no-repeat;
 
 }
