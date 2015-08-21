@@ -24,7 +24,7 @@ info:
     postal_code: 19025 # not mandatory
     country: USA # not mandatory
   desc: |
-    Passionate about leveraging new media technologies to build innovative solutions that improve human interactions and experiences
+    Eager to explore possible career paths within the Healthcare and IT fields. Passionate about leveraging new media technologies to build innovative solutions and improve human experiences
 
 skills:
   - name: Web Master
@@ -78,11 +78,9 @@ jobs:
       start: October 2013
       end: Present
     desc: |
-      Design and Implement information systems in Sharepoint and Web Content Management Systems
+      Developed information systems serving to School's communications needs and aligned graphics with branding in Sharepoint and Sitecore CMS
 
-      Responsible for producing digital and print media for the School of Biomedical Engineering
-
-      Manage many websites including department website, sub-level sites, and faculty web pages
+      Designed print and marketing materials for School Events in collaboration with BIOMED faculty and students
 
 
 
@@ -93,22 +91,20 @@ jobs:
       start: March 2013
       end: August 2013
     desc: |
-      Participated in the 4-month Dreamit Health inaugural accelerator class
+      Designed both printed recipe instructions and front-end user experience for web app
 
-      Change the way people think about eating healthy by making it fun, convenient, and exciting for customers
+      Researched recipe data structures and checked for accuracy and quality healthy recipes
 
-      Designed fun/friendly user experience for the website and the mobile app.
-
-  - title: UI Designer/Developer
+  - title: Junior UI Designer/Developer
     company: Digitas Health
     css_class: digitas
     dates:
       start: March 2011
       end: September 2011
     desc: |
-      Developed and animated interactive ads for Top 10 pharmaceutical companies
+      Programmed and animated interactive pharmaceutical banner ads
 
-      Designed both digital media and print materials e.g. websites, posters, emails, calendars, packaging, and storyboards
+      Designed digital marketing materials such as animated storyboards, web pages, and email
 
   - title: Student Tracking Advanced Research (STAR) Scholar
     company: Drexel University
@@ -117,8 +113,10 @@ jobs:
       start: June 2009
       end: September 2009
     desc: |
-      Utilized a non-contact 3D scanner to digitally archive fossils, colonial-era artifacts, and ancient pottery fragments
-      
+      Utilized a non-contact 3D laser scanner to render virtual versions of artifacts
+
+      Digitally restored fossils, colonial-era artifacts, and ancient pottery fragments for NSF funded research
+
       Collaborated with historians from Temple, NSF, and the Independence Living History Center of Philadelphia
 
 education: # this section is not mandatory

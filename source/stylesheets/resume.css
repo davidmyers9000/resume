@@ -124,3 +124,5 @@ a#pdf:hover { background: rgb(231, 76, 60); }
 .yui-gf .yui-u{width:80.2%;}
 .yui-gf div.first{width:12.3%;}
 
+.job.no-page-breaker.experience.vevent p { .65em 0 .65em 0 }
+

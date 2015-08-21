@@ -13,6 +13,8 @@ h1, h2, h3, h4 {
 	color: #333333;
 }
 
+p { font-size: 14px; }
+
 a#pdf {
     display: none;
 }
@@ -58,3 +60,5 @@ a:not(.donotexpand):link:after, a:not(.donotexpand):visited:after {
 div.no-page-breaker {
     page-break-inside: avoid;
 }
+
+.job.no-page-breaker.experience.vevent p { .5em 0 .5em 0 }
